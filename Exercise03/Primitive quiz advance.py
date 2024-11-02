@@ -1,14 +1,14 @@
 #recording capitals of 10 European countries.
-capitals = {"Canada": "Ottawa",
-"china": "Beijing",
-"Egypt": "Cairo",
+capitals = {"Italy": "Rome",
+"Spain": "Madrid",
+"Switzerland": "Bern",
 "France": "Paris",
 "Germany": "Berlin",
-"India": "New Delhi",
-"New Zealand": "Wellington",
+"Greece": "Athens",
+"Austria": "Vienna",
 "Russia": "Moscow" ,
 "united Kingdom": "London",
-"United States of America": "Washington"}
+"Finland": "Helsinki"}
 for country, capital in capitals.items():
     answer = input (f"what is the capital of {country}?: ")
 #Ensuring whether or not the answer is correct
